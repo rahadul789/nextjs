@@ -12,7 +12,9 @@ export default async function Home() {
       <div className=" mt-10">
         <h1 className=" text-3xl font-semibold mb-4"> Data Featching</h1>
         {posts.map((post) => (
-          <li key={post.id}>{post.title}</li>
+          <Link href={`blog/${post.id}`} key={post.id}>
+            <p>{post.title}</p>
+          </Link>
         ))}
       </div>
     </div>
