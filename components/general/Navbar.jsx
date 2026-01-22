@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <Menu color="white" onClick={toggleSidebar} />
           <Link href="/" className="text-white text-lg font-bold">
-            GOZyana
+            1Technologies
           </Link>
         </div>
         <div className="flex space-x-4">
